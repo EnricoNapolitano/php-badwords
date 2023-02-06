@@ -17,15 +17,17 @@
         <div class="row">
             <div class="col pt-5">
                 <form action="texts.php" method="GET">
-                    <label class="d-block" for="paragraph">
-                        <h2>Inserisci il tuo testo</h2>
+                    <label for="paragraph">
+                        <h2 class="d-inline mr-5">Inserisci il tuo testo</h2>
                     </label>
-                    <textarea class="w-100" name="text" id="paragraph"></textarea>
                     <label class="pt-3" for="censure">
-                        <h4>Censura una parola:</h4>
+                        <h4 class="d-inline">Censura una parola:</h4>
                     </label>
                     <input type="text" name="censure">
                     <button class="btn btn-primary">INVIA</button>
+                    <textarea class="w-100 pl-3 mt-4" style="min-height: 300px;" name="text" id="paragraph"
+                        placeholder="scrivi un testo..."></textarea>
+
                 </form>
             </div>
         </div>
