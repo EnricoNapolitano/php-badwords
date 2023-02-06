@@ -1,4 +1,5 @@
 <?php
+// variables:
 $text = $_GET['text'];
 $censure = $_GET['censure'];
 $censured_text = str_replace($censure, '***', $text);
