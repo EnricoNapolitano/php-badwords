@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Enrico">
+    <title>Form</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col pt-5">
+                <form action="texts.php" method="GET">
+                    <label class="d-block" for="paragraph">
+                        <h2>Inserisci il tuo testo</h2>
+                    </label>
+                    <textarea class="w-100" name="text" id="paragraph"></textarea>
+                    <label for="censure">
+                        <h4>Censura una parola:</h4>
+                    </label>
+                    <input type="text" name="censure">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
